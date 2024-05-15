@@ -1,6 +1,6 @@
 # The difference between an array and a list is that the type of object stored in the array container is constrained.
-
 import array as arr
+import array
 
 """ Creating an array """
 import array as arr
@@ -39,7 +39,6 @@ print()
 
 """ Removing Elements from the Array """
 
-import array
 arr = array.array('i', [1, 2, 3, 1, 5])
 print("The new created array is : ", end="")
 for i in range(0, 5):
@@ -60,7 +59,6 @@ for i in range(0, 3):
 
 """Slicing of an Array"""
 
-import array as arr
 l = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 a = arr.array('i', l)
@@ -80,7 +78,6 @@ print(Sliced_array)
 
 """ Searching Element in an Array """
 
-import array
 arr = array.array('i', [1, 2, 3, 1, 2, 5])
 print("The new created array is : ", end="")
 for i in range(0, 6):
@@ -94,7 +91,6 @@ print(arr.index(1))
 
 """ Updating Elements in a Array """
 
-import array
 arr = array.array('i', [1, 2, 3, 1, 2, 5])
 print("Array before updation : ", end="")
 for i in range(0, 6):
@@ -113,7 +109,6 @@ for i in range(0, 6):
 
 """ Extend Element from Array """
 
-import array as arr 
 a = arr.array('i', [1, 2, 3,4,5])
 print("The before array extend  : ", end =" ")
 for i in range (0, 5): 
