@@ -15,7 +15,6 @@ for i in range(0, 3):
     print(b[i], end=" ")
 
 """ Adding Elements to a Array """
-
 a = arr.array('i', [1, 2, 3])
 print("Array before insertion : ", end=" ")
 for i in range(0, 3):
@@ -38,7 +37,6 @@ for i in (b):
 print()
 
 """ Removing Elements from the Array """
-
 arr = array.array('i', [1, 2, 3, 1, 5])
 print("The new created array is : ", end="")
 for i in range(0, 5):
@@ -58,7 +56,6 @@ for i in range(0, 3):
     print(arr[i], end=" ")
 
 """Slicing of an Array"""
-
 l = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 a = arr.array('i', l)
@@ -77,7 +74,6 @@ print("\nPrinting all elements using slice operation: ")
 print(Sliced_array)
 
 """ Searching Element in an Array """
-
 arr = array.array('i', [1, 2, 3, 1, 2, 5])
 print("The new created array is : ", end="")
 for i in range(0, 6):
@@ -90,7 +86,6 @@ print("The index of 1st occurrence of 1 is : ", end="")
 print(arr.index(1))
 
 """ Updating Elements in a Array """
-
 arr = array.array('i', [1, 2, 3, 1, 2, 5])
 print("Array before updation : ", end="")
 for i in range(0, 6):
@@ -108,7 +103,6 @@ for i in range(0, 6):
     print(arr[i], end=" ")
 
 """ Extend Element from Array """
-
 a = arr.array('i', [1, 2, 3,4,5])
 print("The before array extend  : ", end =" ")
 for i in range (0, 5): 
