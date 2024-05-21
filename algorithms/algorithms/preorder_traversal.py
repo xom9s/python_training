@@ -22,7 +22,7 @@ root.left.right = Node(5)
 print("Preorder traversal:", end=" ")
 preorder_traversal(root)  # Output: 1 2 4 5 3 
 
-#iterative approach (using stack)
+#iterative approach (using a stack)
 
 def preorder_traversal_iterative(node):
     if node is None:
