@@ -16,3 +16,11 @@ class TreeNode:
             if node.left:
                 stack.append(node.left)   # Push left child last
         return result
+    
+root = TreeNode(1)
+root.left = TreeNode(2)
+root.right = TreeNode(3)
+root.left.left = TreeNode(4)
+root.left.right = TreeNode(5)
+
+print(root.dfs())  # Output: [1, 2, 4, 5, 3] 
